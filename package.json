@@ -6,7 +6,12 @@
   "author": "",
   "license": "ISC",
   "keywords": [],
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "config": {
     "commitizen": {
       "path": "node_modules/cz-git",
