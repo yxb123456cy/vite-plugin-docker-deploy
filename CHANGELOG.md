@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.2.1...v1.3.0) (2025-09-07)
+
+
+### ✨ Features | 新功能
+
+* **plugin:** :sparkles: 添加targetEnv获取、打包 dist + Dockerfile ([1ce5c96](https://github.com/yxb123456cy/vite-plugin-docker-deploy/commit/1ce5c96bb287aca828d87baaeb3719455c2bfe8a))
+
 ### [1.2.1](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.2.0...v1.2.1) (2025-09-07)
 
 
