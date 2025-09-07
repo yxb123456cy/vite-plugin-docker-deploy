@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.5.1...v1.5.2) (2025-09-07)
+
+
+### ✏️ Documentation | 文档
+
+* **docs:** :memo: 完善README.md 以及新增Screenshot ([cadb218](https://github.com/yxb123456cy/vite-plugin-docker-deploy/commit/cadb21809515b327cbbc68e9d62a0b30b78d3c46))
+
 ### [1.5.1](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.5.0...v1.5.1) (2025-09-07)
 
 
