@@ -1,0 +1,1 @@
+// Vite-plugin-docker-deploy相关TS类型接口文件

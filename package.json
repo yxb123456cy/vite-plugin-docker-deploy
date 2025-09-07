@@ -1,0 +1,50 @@
+{
+  "name": "vite-plugin-docker-deploy",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.14.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git",
+      "useEmoji": true
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "build:prod": "cross-env NODE_ENV=production tsup",
+    "commit": "git-cz",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky",
+    "test": "vitest",
+    "release": "standard-version",
+    "publish:all": "npm version patch && git push --follow-tags",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "archiver": "^7.0.1",
+    "ssh2": "^1.17.0",
+    "tsup": "^8.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "@types/archiver": "^6.0.3",
+    "@types/ssh2": "^1.15.5",
+    "cross-env": "^10.0.0",
+    "cz-git": "^1.12.0",
+    "eslint": "^9.34.0",
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.4",
+    "vitepress": "^1.6.4"
+  }
+}
