@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.5.0...v1.5.1) (2025-09-07)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* :bug: 修复 ([f3426c2](https://github.com/yxb123456cy/vite-plugin-docker-deploy/commit/f3426c2b209391d7d288ff8f447bc8816a69872d))
+* **plugin:** :bug: 修复DockerFile检查问题并优化函数结构 ([2a3271e](https://github.com/yxb123456cy/vite-plugin-docker-deploy/commit/2a3271e85a763af8156812d70c7d93e1e3085721))
+
 ## [1.5.0](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.4.0...v1.5.0) (2025-09-07)
 
 
