@@ -170,7 +170,7 @@ async function uploadAndExtract(
   await log(`📦 解压完成: ${remoteBuildDir}`)
 
   // 验证Dockerfile存在
-  const checkDockerfile = await ssh.execCommand(`cd ${remoteBuildDir} && test -f Dockerfile`)
+  const checkDockerfile = await ssh.execCommand(`cd ${remoteBuildDir} && cat Dockerfile`)
   if (checkDockerfile.code !== 0) {
     throw new Error('Dockerfile不存在于解压后的目录中')
   }
