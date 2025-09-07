@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.3.0...v1.4.0) (2025-09-07)
+
+
+### ✨ Features | 新功能
+
+* **ssh:** :sparkles: 使用node-ssh 来完成ssh链接测试 ([90fa058](https://github.com/yxb123456cy/vite-plugin-docker-deploy/commit/90fa05895f102174a497b1494daa09667308c464))
+
 ## [1.3.0](https://github.com/yxb123456cy/vite-plugin-docker-deploy/compare/v1.2.1...v1.3.0) (2025-09-07)
 
 

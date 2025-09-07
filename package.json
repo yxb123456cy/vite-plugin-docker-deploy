@@ -1,6 +1,6 @@
 {
   "name": "@qy-utils/vite-plugin-docker-deploy",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "packageManager": "pnpm@10.14.0",
   "description": "一个Vite插件",
   "author": "yxb123456cy <2186256471@qq.com>",
