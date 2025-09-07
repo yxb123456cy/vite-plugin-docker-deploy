@@ -1,12 +1,35 @@
 {
-  "name": "vite-plugin-docker-deploy",
+  "name": "@qy-utils/vite-plugin-docker-deploy",
   "version": "1.0.0",
   "packageManager": "pnpm@10.14.0",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "main": "dist/index.cjs",
+  "description": "一个Vite插件",
+  "author": "yxb123456cy <2186256471@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/yxb123456cy/vite-plugin-docker-deploy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxb123456cy/vite-plugin-docker-deploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yxb123456cy/vite-plugin-docker-deploy/issues"
+  },
+  "keywords": [
+    "vite",
+    "typescript",
+    "vite-plugin",
+    "plugn",
+    "deploy",
+    "docker",
+    "docker-deploy",
+    "vite-docker",
+    "docker-deploy-plugin",
+    "vite-docker-deploy",
+    "docker-deploy-vite-plugin",
+    "vite-plugin-docker-deploy"
+  ],
+
+  "sideEffects": false,
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
@@ -17,6 +40,12 @@
       "path": "node_modules/cz-git",
       "useEmoji": true
     }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "dev": "tsup --watch",
@@ -32,6 +61,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "peerDependencies": {
+    "vite": "^7.1.4"
   },
   "dependencies": {
     "@types/node": "^24.3.0",
