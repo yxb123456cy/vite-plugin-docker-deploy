@@ -1,6 +1,6 @@
 {
   "name": "@qy-utils/vite-plugin-docker-deploy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "packageManager": "pnpm@10.14.0",
   "description": "一个Vite插件",
   "author": "yxb123456cy <2186256471@qq.com>",
@@ -37,7 +37,6 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-
   "files": [
     "dist"
   ],
